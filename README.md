@@ -9,5 +9,5 @@ For this to work, you may need to run `xhost +` on your docker host
 as a volume in the container as described in
 [this blog post](http://golangcloud.blogspot.com/2014/06/run-x11-application-inside-docker.html).
 
-    docker run -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY perlstalker/virt-manager
+    docker run -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY perlstalker/docker-virt-manager
 
